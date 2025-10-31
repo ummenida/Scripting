@@ -37,26 +37,30 @@ Bash stands for Bourne Again Shell. It is a widely used shell on Linux and macOS
 
 **Example Bash Command:**
 bash
-echo "Hello from Bash!"
+
+      echo "Hello from Bash!"
 
 **Example Bash Script (hello.sh):**
 bash
-#!/bin/bash
-echo "This script is running in Bash!"
+
+      #!/bin/bash
+      echo "This script is running in Bash!"
 
 **How to Check Which Shell You're Using**
 Run this in your terminal:
 bash
-echo $SHELL
+      
+      echo $SHELL
 
 Or check which shell is currently active:
 bash
-ps -p $$ -o comm=
+
+      ps -p $$ -o comm=
 
 **Changing Your Default Shell**
 You can change your default shell using the chsh command:
 
-chsh -s /bin/bash
+    chsh -s /bin/bash
 
 Make sure the desired shell is installed before switching.
 
@@ -78,8 +82,7 @@ Think of it like this:
 
 ### Example Commands in Bash via Terminal
 
-sh
-echo "Hello from Bash!" # This runs in the shell (Bash), through the terminal
+    echo "Hello from Bash!" # This runs in the shell (Bash), through the terminal
 
 ### Summary Table
 
